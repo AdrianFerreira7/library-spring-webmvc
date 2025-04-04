@@ -1,7 +1,13 @@
 package br.com.bpkedu.library_spring_webmvc.repository;
 
-import br.com.bpkedu.library_spring_webmvc.domain.Usuario;
+import br.com.bpkedu.library_spring_webmvc.domain.Usuarios;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+import java.util.List;
+
+public interface UsuarioRepository extends JpaRepository<Usuarios, Long> {
+
+
+
 }
+
