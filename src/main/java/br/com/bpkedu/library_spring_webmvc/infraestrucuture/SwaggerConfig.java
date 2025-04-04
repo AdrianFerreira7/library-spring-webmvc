@@ -16,12 +16,12 @@ public class SwaggerConfig {
 
     private io.swagger.v3.oas.models.info.Info apiInfo() {  // Corrigido: usando o caminho completo da classe Info
         return new io.swagger.v3.oas.models.info.Info()
-                .title("Biblioteca Virtual API")
+                .title("")
                 .version("1.0")
-                .description("API para gerenciamento de livros, permitindo cadastro, busca e empréstimos.")
+                .description(".")
                 .contact(new io.swagger.v3.oas.models.info.Contact()  // Corrigido: usando o caminho completo da classe Contact
-                        .name("Suporte Biblioteca Virtual")
-                        .email("suporte@bibliotecavirtual.com"))
+                        .name("")
+                        .email(""))
                 .license(new io.swagger.v3.oas.models.info.License()  // Corrigido: usando o caminho completo da classe License
                         .name("Apache 2.0")
                         .url("https://www.apache.org/licenses/LICENSE-2.0.html"));

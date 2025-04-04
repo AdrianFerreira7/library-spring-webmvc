@@ -1,6 +1,6 @@
 package br.com.bpkedu.library_spring_webmvc.controller.api;
 
-import br.com.bpkedu.library_spring_webmvc.domain.Usuario;
+import br.com.bpkedu.library_spring_webmvc.domain.Usuarios;
 import br.com.bpkedu.library_spring_webmvc.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,8 +18,8 @@ public class UsuarioRestController {
 
 
     @GetMapping("/getAll")
-    public List<Usuario> getUsuarios(){
-        return usuarioService.listarTodos();
+    public List<Usuarios> getUsuarios(){
+        return usuarioService.listarUsuarios();
     }
 
 }
